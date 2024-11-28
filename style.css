@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: #d32f2f;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #d32f2f;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FDF8A2;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+body header img {
+	max-width: 100%;
+    height: auto;
+}
+#about p {
+    font-size: 1.5em;
+}
+body header p {
+    font-size: 1.5em;
+}
+#menu h3 {
+    font-size: 2em;
+}
+.menu-grid .menu-item strong {
+    font-size: 1.5em;
+}
+.menu-grid .menu-item p {
+    font-size: 1.2em;
+}
